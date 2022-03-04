@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Content_header{
+    display: flex;
+    justify-content: end;
+}
+.dashaboard_user{
+    height:49px;
+    width: 233px;
+    margin: 30px;
+    border-radius: 10px;
+    background:#fff;
+    display: flex;
+    align-items: center
+    
+}
+.dashaboard_user svg {
+    width: 40px;
+}
+.user_name p {
+    font-size: 14px;
+}
+.user svg{
+    padding: 5px;
+}
+
+.user_name{
+    margin: 20px;
+    text-align: left;
+    color: #1D8CEA;
+}
+.ragnar{
+    font-weight: bold;
+}
+
+
+
+.container_button{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn_dashboard{
+    margin: 10px;
+    width: 92px;
+    height:34px;
+    border-radius: 20px;
+    border: 1px solid #1D8CEA;
+    color: #1D8CEA;
+
+}
+
+.btn_dashboard:hover{
+    background: #1D8CEA;
+    color: #fff;
+}
+
+.container_dashboard {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+   
+}
+
+.dashboard_task{
+    padding: 30px;
+    background: #fff;
+    height: 165px;
+    width: 200px;
+  
+}
+
+#task svg{
+    height: 30px;
+}
+
+#run svg{
+    height: 30px;
+}
+
+#time svg{
+    height: 30px;
+}
+
+.dashaboard_number{
+    color: #1D8CEA;
+  
+}
+.welcome{
+color: #1D8CEA;
+font-size: 24px;
+align: center;
+margin-top: 50px;
+}
+
+.welcome_2{
+    font-size: 22px;
+    text-align: center;
+    margin-top:50px;
+}
+

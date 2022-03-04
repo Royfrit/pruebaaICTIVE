@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sideBar{
+    position: fixed;
+    display: flex;
+    height: 100%;
+    width: 60px;
+    top: 0;
+    left: 0;
+    background: #FFFFFF;
+    transition: all 0.5s ease;
+    border-radius: 16px;
+}
+
+.contentIcons button {
+    width: 100%; 
+    border: none;
+    margin: 5px 0 25px 0;
+    text-decoration: none;
+    background: none;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.contentIcons button:focus  svg {
+    filter: invert(19%) sepia(88%) saturate(5370%) hue-rotate(262deg) brightness(89%) contrast(97%);
+}
+
+.contentIcons button:active svg {
+    filter: invert(19%) sepia(88%) saturate(5370%) hue-rotate(262deg) brightness(89%) contrast(97%);
+}
+
+.barra {
+    background: linear-gradient(180deg, #6F28E0 0%, #1D8CEA 55.73%);
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 5%);
+    border-radius: 0px 16px 16px 0;
+    width: 78px;
+}
+.sideBar.active{
+    width: 240px;
+}
+
+.sideBar box-icon {
+    position: relative;
+    height: 46px;
+    margin: 0 5px;
+    list-style: none;
+    line-height: 50px;
+    left: 0px;
+}
+.sideBar.active .dimesionBorder {
+    border-bottom: 1px solid #fff;
+}
+
+.dimesionBorder:active,
+.dimesionBorder:focus {
+    background: #fff;
+    border-radius: 60px;
+    width: 46px;
+    height: 46px;
+    font-size: 0;
+}
+
+.contentIcons {
+    margin: 40px 0 0 0;
+}
+.logo-content{
+    background: #170D61;
+    margin: 31px 0 25px 0;
+    width: 120%;
+    border-radius: 0px 10px 10px 0;
+}
+.sideBar .logo-content .logo{
+    color: #fff;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+}
+
+.sideBar.active .logo-content .logo{
+    opacity: 1;
+}
+
+box-icon #menu{
+    font-size: 208px;
+    margin-right: 5px;
+}
+
+box-icon {
+    position: absolute;
+    color: #fff;
+    left: 90%;
+}
+
+.logo-name {
+    width: 92%;
+}
+
+
+.sideBar.active #menu{
+    left: 68%;
+}
+.sideBar ul{
+    margin-top: 20 px;
+
+}
+
+.list {
+    width: 0;
+    margin: 0;
+}
+.sideBar.active .list {
+    width: 207px;
+    margin: 109px 0 0 0;
+}
+
+.sideBar ul li{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 0 5px;
+    list-style: none;
+    line-height: 50px;
+    padding: 10px 0px 0 0;
+}
+
+.sideBar ul li a{
+    color: #6D6D6D;
+    display:flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    border-radius: 12px;
+    white-space: nowrap;
+}
+
+.sideBar ul li a box-icon{
+    height: 50px;
+    min-width: 20px;
+    text-align: center;
+}
+.sideBar .link_name{
+    opacity: 0;
+    pointer-events: none;
+}
+.sideBar.active .link_name{
+    opacity: 1;
+    pointer-events: none;
+}
+
+#out{
+    width: 100%;
+    margin: auto;
+    bottom: 25px;
+    right: 0;
+    position: absolute;
+    text-align: center;
+}

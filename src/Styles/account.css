@@ -1,0 +1,135 @@
+.content {
+    margin: 0 auto 0;
+    width: 50%;
+}
+.title {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1D8CEA;
+}
+.flex {
+    display: flex;
+}
+
+.card-small {
+    height: 291px;
+    background: #fff;
+    width: 222px;
+    left: 436px;
+    top: 161px;
+    border-radius: 9px;
+}
+.card-small svg {
+    margin: 21px 30px 22px 22px;
+}
+.card-small h1 {
+    font-family: Open Sans;
+    color: #1D8CEA;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-align: center;
+    text-decoration: underline;
+}
+.card-small h2{
+    font-family: Open Sans;
+    color: #1D8CEA;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0 0 0 48px;
+}
+.card-large {
+    width: 399px;
+    height: 100%;
+    background: #fff;
+    margin: 0 0 0 15px;
+    border-radius: 9px;
+}
+.divform {
+    display: grid;
+    box-shadow: 0px 0px 15px 0px #0000000d;
+    align-items: center;
+    padding: 9px 15px 0px 15px;
+}
+.flex_Form {
+    width: 370px;
+    display: flex;
+    margin: auto;
+    padding: 4px 0 0 0;
+}
+.flex_Form label {
+    width: 96px;
+    height: 16px;
+    color: #6D6D6D;
+    font-size: 14px;
+    font-family: open sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: start;  
+}
+.flex_Form input {
+    border: 1px solid #C2C2C2;
+    height: 40px;
+    width: 265px;
+    border-radius: 5px;
+}
+.changePasswor {
+    text-align: end;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    color: #1D8CEA;
+    padding: 6px 15px 20px 0;
+}
+.btn-Save{
+    color: #fff;
+    background: #1D8CEA;
+    border: none;
+    border-radius: 5px;
+    width: 184px;
+    height: 39px;
+}
+.positionButton {
+    text-align: end;
+    padding: 0px 10px 10px 0px;
+}
+
+.changePassword {
+    color: #1D8CEA;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: right;
+    padding: 2px 10px 5px 0px;
+    cursor: pointer;
+}
+.flex_Back {
+    display: flex;
+    margin: 10px 0 0 10%;
+    border: none;
+    cursor: pointer;
+    background: #E5E5E5;
+}
+.flex_Back p {
+    color: #1D8CEA;
+    padding: 5px 0 0 10px;
+} 
+
+
